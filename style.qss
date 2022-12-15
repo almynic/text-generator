@@ -1,0 +1,28 @@
+QListWidget {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+QListWidget::item {
+  height: 40px;
+}
+
+QListWidget::item:selected {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+QListWidget::item:hover {
+  background-color: #51dbbd;
+}
+
+QLabel {
+  background-color: #ffffff;
+  qproperty-alignment: AlignCenter;
+}
+
+QPushButton {
+  background-color: #2abf9e;
+  padding: 10px;
+  font-size: 20px;
+}
